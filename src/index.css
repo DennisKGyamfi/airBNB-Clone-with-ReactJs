@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.CardRender {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+.bold {
+  font-weight: bold;
+}
+.textOnImage {
+  position: absolute;
+    text-align: center;
+    background-color: #ffffff;
+    width: auto;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
